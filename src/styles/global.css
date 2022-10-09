@@ -1,0 +1,83 @@
+/* ::-webkit-scrollbar {
+    width: 17px;
+}
+::-webkit-scrollbar-corner {
+    background: #dfdfdf;
+}
+::-webkit-scrollbar-thumb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #c8d6fb;
+    background-size: 7px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-shadow: inset -3px 0 #bad1fc, inset 1px 1px #b7caf5;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background-image: url("../assets/icons/scroll-thumb.svg");
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background-size: 8px;
+    background-image: url("../assets/icons/scroll-thumb-horizontal.svg");
+}
+::-webkit-scrollbar-track:vertical {
+    background-image: url("../assets/icons/scroll-background.svg");
+}
+::-webkit-scrollbar-track:horizontal {
+    background-image: url("../assets/icons/scroll-background-horizontal.svg");
+}
+::-webkit-scrollbar-button:vertical:start {
+    height: 17px;
+    background-image: url("../assets/icons/scroll-arrow-up.svg");
+}
+::-webkit-scrollbar-button:vertical:end {
+    height: 17px;
+    background-image: url("../assets/icons/scroll-arrow-down.svg");
+}
+::-webkit-scrollbar-button:horizontal:start {
+    width: 17px;
+    background-image: url("../assets/icons/scroll-arrow-left.svg");
+}
+::-webkit-scrollbar-button:horizontal:end {
+    width: 17px;
+    background-image: url("../assets/icons/scroll-arrow-right.svg");
+}
+
+.window {
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee,
+        inset -3px -3px #003bda, inset 3px 3px #0855dd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 0 3px 0;
+    -webkit-font-smoothing: antialiased;
+}
+.title-bar {
+    font-family: "Trebuchet MS";
+    background: linear-gradient(
+        180deg,
+        rgba(9, 151, 255, 1) 0%,
+        rgba(0, 83, 238, 1) 8%,
+        rgba(0, 80, 238, 1) 40%,
+        rgba(0, 102, 255, 1) 88%,
+        rgba(0, 102, 255, 1) 93%,
+        rgba(0, 91, 255, 1) 95%,
+        rgba(0, 61, 215, 1) 96%,
+        rgba(0, 61, 215, 1) 100%
+    );
+    padding: 3px 5px 3px 3px;
+    border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 7px;
+    font-size: 13px;
+    text-shadow: 1px 1px #0f1089;
+    height: 21px;
+}
+
+.title-bar-text {
+    padding-left: 3px;
+} */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a3baf8;
+}

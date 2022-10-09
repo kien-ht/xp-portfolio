@@ -1,0 +1,43 @@
+:root {
+  --root-blue-v-1: #265cd4;
+  --root-blue-v-2: #1484c4;
+  --root-blue-v-3: #248ce4;
+  --root-blue-v-4: #14c4f4;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  height: 100vh;
+  background: url('@/assets/desktop-background.jpeg') no-repeat center/cover;
+  overflow: hidden;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Pixelated MS Sans Serif', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'Pixelated MS Sans Serif';
+  src: url('../assets/fonts/ms_sans_serif.woff2');
+}
+
+@font-face {
+  font-family: 'Pixelated MS Sans Serif Bold';
+  src: url('../assets/fonts/ms_sans_serif_bold.woff2');
+}
