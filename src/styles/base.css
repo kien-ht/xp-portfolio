@@ -32,12 +32,3 @@ body {
   flex-direction: column;
 }
 
-@font-face {
-  font-family: 'Pixelated MS Sans Serif';
-  src: url('../assets/fonts/ms_sans_serif.woff2');
-}
-
-@font-face {
-  font-family: 'Pixelated MS Sans Serif Bold';
-  src: url('../assets/fonts/ms_sans_serif_bold.woff2');
-}
