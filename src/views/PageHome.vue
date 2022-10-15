@@ -1,27 +1,5 @@
 <template>
   <main>
-    <h1>Hello world</h1>
-    <button class="p-2">OK</button>
-    <ul class="h-[200px] w-[200px] overflow-auto bg-white">
-      <li>1</li>
-      <li>2</li>
-      <li>1</li>
-      <li>4</li>
-      <li>5</li>
-      <li>17</li>
-      <li>13</li>
-      <li class="whitespace-nowrap">
-        1534 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-        culpa
-      </li>
-      <li>154</li>
-      <li>145</li>
-      <li>14</li>
-      <li>145</li>
-      <li>145</li>
-      <li>154</li>
-    </ul>
-
     <div
       class="window"
       style="margin: 32px; width: 250px"
