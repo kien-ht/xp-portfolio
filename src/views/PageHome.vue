@@ -1,33 +1,12 @@
 <template>
   <main>
-    <div
-      class="window"
-      style="margin: 32px; width: 250px"
-    >
-      <div class="title-bar">
-        <div class="title-bar-text">My First Program</div>
-
-        <div class="title-bar-controls">
-          <button aria-label="Minimize"></button>
-          <button aria-label="Maximize"></button>
-          <button aria-label="Close"></button>
-        </div>
-      </div>
-      <div class="window-body">
-        <p>Hello, world!</p>
-        <section
-          class="field-row"
-          style="justify-content: flex-end"
-        >
-          <button>OK</button>
-          <button>Cancel</button>
-        </section>
-      </div>
-    </div>
+   <BaseWindows />
   </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BaseWindows from "@/components/BaseWindows.vue"
+</script>
 
 <style scoped>
 
